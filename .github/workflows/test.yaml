@@ -19,6 +19,4 @@ jobs:
           echo "GITHUB_APP_ID=$GITHUB_APP_ID"
           echo "GITHUB_APP_INSTALLATION_ID=$GITHUB_APP_INSTALLATION_ID"
           echo "GITHUB_APP_PRIVATE_KEY_FILE=$GITHUB_APP_PRIVATE_KEY_FILE"
-          echo "GITHUB_REPOSIOTRY"
-          cat /home/runner/private-key.pem
-          history
+          echo "GITHUB_REPOSIOTRY=$GITHUB_REPOSIOTRY"
